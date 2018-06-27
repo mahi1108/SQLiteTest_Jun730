@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:id="@+id/indi_id"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/indi_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desig"
+        android:id="@+id/indi_desig"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dept"
+        android:id="@+id/indi_dept"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
